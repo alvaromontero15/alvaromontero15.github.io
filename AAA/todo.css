@@ -1,0 +1,10 @@
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+nav.menu{
+    background-color: darkgoldenrod;
+    color: black;
+    position: sticky;
+}

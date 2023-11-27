@@ -1,8 +1,0 @@
-* {
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-  }
-
-  nav{
-    background-color:color-mix(in srgb-linear, black 0%, grey 70%)
-  }
