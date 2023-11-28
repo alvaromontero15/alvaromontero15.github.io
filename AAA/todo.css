@@ -11,6 +11,7 @@ body{
 }
 
 header{
+  position: sticky;
   z-index: 100%, 0;
 }
 
@@ -26,7 +27,7 @@ nav{
 
 h1{
   color: white;
-  font-size: 40px;
+  font-size: 20%;
 }
 
 ul li{
@@ -44,12 +45,11 @@ a:hover{
 }
 
 .sidebar {
-  background-color: black;
+  background-color: rgb(49, 49, 49);
   color: white;
   float: left;
-  height: 500px;
-  margin-top: 30px;
-  width: 125px;
+  width: 100px;
+  bottom: 0%;
 }
 
 .sidebar div {
