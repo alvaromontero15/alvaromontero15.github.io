@@ -79,15 +79,32 @@ section{
   text-align: center;
 }
 
-section2{
+section.2{
   color: white;
   text-align: center;
 }
 
 img{
   width: 270px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
+.bbo{
+  float: left;
+  margin-left: 623px;
+}
 
+.pop{
+  float: right;
+  margin-right: 623px;
+}
+
+.mmcd{
+ clear: both;
+}
+
+h2{
+  text-align: center;
+  font-style: italic;
+  font-size: 30px;
+  color: aqua;
+}
