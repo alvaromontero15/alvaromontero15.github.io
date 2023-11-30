@@ -4,7 +4,7 @@
   }
 
 body{
-  background-image: url(/AAA/imagen-3d-fondo-tonos-oscuros-serie-solidos-cubicos_103577-5241.avif);
+  background-image: url(fondopagweb.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -39,6 +39,7 @@ ul li{
 a{
   color: white;
   text-decoration: none;
+  cursor: pointer;
 }
 
 a:hover{
