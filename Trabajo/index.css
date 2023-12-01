@@ -50,10 +50,10 @@ a:hover {
 .sidebar {
   background-color: rgb(49, 49, 49);
   color: white;
-  width: 100px;
+  width: 120px;
   height: 90%;
   float: left;
-  margin-top: 200px;
+  margin-top: 30px;
 }
 
 .sidebar div {
@@ -90,19 +90,20 @@ hr{
 
 section{
 color: white;
-padding: 20px;
 }
 
 .características {
     columns: 3;
-    column-gap: 100px;
-    text-align: justify;
-    margin-right: 20px;
 }
 
 .columnas{
     font-size: larger;
     font-style: normal;  
+}
+
+p{
+  padding: 10px;
+  text-align: center;
 }
 
 .cosas {
@@ -116,12 +117,12 @@ img {
 
 .bbo {
   float: left;
-  margin-left: 623px;
+  margin-left: 682px;
 }
 
 .pop {
   float: right;
-  margin-right: 623px;
+  margin-right: 682px;
 }
 
 .mmcd {
