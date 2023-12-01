@@ -1,22 +1,22 @@
 * {
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-  }
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
 
 body{
-  background-image: url(img/gradient-dark-background-wallpaper-preview.jpg);
+  background-image: url(img/fondopagweb.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
 
-header{
+header {
   position: sticky;
   z-index: 100;
   top: 0%;
 }
 
-nav{
+nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -26,34 +26,34 @@ nav{
   background-color: rgb(49, 49, 49);
 }
 
-h1{
-  color: white;
-  font-size: 20px;
+h1 {
+  font-style: italic;
+  font-size: 35px;
+  color: aqua;
 }
 
-ul li{
+ul li {
   display: inline-block;
   padding: 0px 20px;
 }
 
-a{
+a {
   color: white;
   text-decoration: none;
   cursor: pointer;
 }
 
-a:hover{
+a:hover {
   color: aqua;
 }
 
 .sidebar {
-  position: sticky;
-  z-index: 99;
   background-color: rgb(49, 49, 49);
   color: white;
-  float: left;
   width: 100px;
-  height: 1000px;
+  height: 90%;
+  float: left;
+  margin-top: 200px;
 }
 
 .sidebar div {
@@ -68,29 +68,74 @@ footer {
   padding: 20px;
   text-align: center;
   margin-bottom: 10px;
-}
-
-body {
-  font-family: Arial, sans-serif;
-  margin: 20px;
-}
-
-h1 {
-  text-align: center;
-}
-
-.curriculum {
-  width: 100%;
-  border-collapse: collapse;
-  margin-top: 20px;
-}
-
-th, td {
-  border: 1px solid #000;
-  padding: 8px;
-  text-align: left;
-}
-
-th {
-  background-color: #f2f2f2;
-}
+  * {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  body{
+    background-image: url(img/fondopagweb.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  
+  header {
+    position: sticky;
+    z-index: 100;
+    top: 0%;
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-weight: bold;
+    background-color: rgb(49, 49, 49);
+  }
+  
+  h1 {
+    font-style: italic;
+    font-size: 35px;
+    color: aqua;
+  }
+  
+  ul li {
+    display: inline-block;
+    padding: 0px 20px;
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  a:hover {
+    color: aqua;
+  }
+  
+  .sidebar {
+    background-color: rgb(49, 49, 49);
+    color: white;
+    width: 100px;
+    height: 90%;
+    float: left;
+    margin-top: 200px;
+  }
+  
+  .sidebar div {
+    margin-top: 200px;
+    padding: 10px;
+  }
+  
+  footer {
+    background-color: rgb(49, 49, 49);
+    color: white;
+    clear: both;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+  }

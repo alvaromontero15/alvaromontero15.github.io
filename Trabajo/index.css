@@ -3,8 +3,8 @@
   box-sizing: border-box;
 }
 
-body {
-  background-image: url(/Trabajo/fondopagweb.jpg);
+body{
+  background-image: url(img/fondopagweb.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -53,6 +53,7 @@ a:hover {
   width: 100px;
   height: 90%;
   float: left;
+  margin-top: 200px;
 }
 
 .sidebar div {
