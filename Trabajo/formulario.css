@@ -98,3 +98,10 @@ input[type="submit"] {
   border: none;
   cursor: pointer;
 }
+
+input[type="reset"] {
+  background-color: red;
+  color: rgb(49, 49, 49);
+  border: none;
+  cursor: pointer;
+}

@@ -94,20 +94,18 @@ color: white;
 
 .características {
     columns: 3;
+    text-align: justify;
 }
 
 .columnas{
     font-size: larger;
-    font-style: normal;  
+    font-style: normal;
+    padding: 10px;
+    text-align: center;
 }
 
-p{
-  padding: 10px;
-  text-align: center;
-}
 
 .cosas {
-  color: white;
   text-align: center;
 }
 
