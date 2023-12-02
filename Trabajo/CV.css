@@ -69,3 +69,32 @@ footer {
   text-align: center;
   margin-bottom: 10px;
 }
+
+table{
+  color: white;
+  margin-left: 500px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-top: solid 1px aqua;
+  border-left: solid 1px aqua;
+  border-right: solid 1px aqua;
+  border-bottom: solid 1px aqua;
+  padding: 20px;
+}
+
+h2{
+  color: aqua;
+  font-style: oblique;
+}
+
+hr{
+  color: aqua;
+  margin-right: 100%;
+  width: 250px;
+}
+
+.fotoCV{
+  float: left;
+  width: 150px;
+  border-radius: 100%;
+}
