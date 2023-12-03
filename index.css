@@ -1,0 +1,117 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url(img/fondopagweb.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+header {
+  position: sticky;
+  z-index: 100;
+  top: 0%;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-weight: bold;
+  background-color: rgb(49, 49, 49);
+}
+
+h1 {
+  font-style: italic;
+  font-size: 35px;
+  color: aqua;
+}
+
+ul li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:hover {
+  color: aqua;
+}
+
+.sidebar {
+  background-color: rgb(49, 49, 49);
+  color: white;
+  width: 200px;
+  height: 100%;
+  float: left;
+  margin-top: 150px;
+}
+
+.sidebar div {
+  padding: 10px;
+}
+
+footer {
+  background-color: rgb(49, 49, 49);
+  color: white;
+  clear: both;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 3%;
+}
+
+.yo{
+  width: 180px;
+}
+
+h2 {
+  text-align: center;
+  font-style: italic;
+  font-size: 30px;
+  color: aqua;
+}
+
+h3 {
+    text-align: center;
+    font-size: 25px;
+    color: white;
+  }
+
+hr{
+    width: 550px;
+}
+
+section{
+color: white;
+}
+
+.características {
+    columns: 3;
+    text-align: justify;
+}
+
+.columnas{
+    font-size: larger;
+    padding: 10px;
+    text-align: center;
+}
+
+
+.cosas {
+  text-align: center;
+}
+
+img {
+  width: 200px;
+}
+
