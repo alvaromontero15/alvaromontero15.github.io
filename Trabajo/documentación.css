@@ -83,6 +83,6 @@ h2{
   color: aqua;
 }
 
-.layout{
-  margin-bottom: 40px;
+section{
+  float: right;
 }
